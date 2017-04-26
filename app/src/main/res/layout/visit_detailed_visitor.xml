@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="姓名："
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="0.21"/>
+
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:id="@+id/et_visitdeta_name"
+            android:layout_weight="0.68"
+            android:gravity="center_vertical|center"
+            android:layout_width="120dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:text="联系电话："
+            android:layout_height="match_parent"
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:layout_width="56dp"
+            android:layout_weight="0.21"/>
+
+        <EditText
+          
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_viitdeta_phone"
+            android:layout_weight="0.21"
+            android:inputType="phone"
+            android:gravity="center_vertical|center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:text="来访单位："
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/et"
+            android:gravity="center"
+            android:layout_weight="0.21"/>
+
+        <EditText
+          
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_viitdeta_dept"
+            android:layout_weight="0.21"
+            android:gravity="center_vertical|center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:text="证件类型："
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:layout_weight="0.21"/>
+
+        <EditText
+           
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_viitdeta_style"
+            android:layout_weight="0.21"
+            android:gravity="center_vertical|center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:text="证件号码："
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:layout_weight="0.21"/>
+
+        <EditText
+            android:inputType="number"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_viitdeta_number"
+            android:layout_weight="0.21"
+            android:gravity="center_vertical|center"/>
+
+    </LinearLayout>
+
+    <TextView
+      
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_visitdeta_random"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <Button
+            android:text="保存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_visit_deta_save"
+            />
+
+        <Button
+            android:text="下一个"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_visit_deta_down"
+            />
+
+        <Button
+            android:text="删除"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_visit_deta_del"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               xmlns:tools="http://schemas.android.com/tools"
+               android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/tv_visitor_id"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_round_textview"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            tools:text="1"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="申请人："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:id="@+id/textView30"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:text="侯亮平"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_createby"
+            android:layout_alignBaseline="@+id/textView30"
+            android:layout_alignBottom="@+id/textView30"
+            android:layout_toRightOf="@+id/textView30"
+            android:layout_toEndOf="@+id/textView30"/>
+
+        <TextView
+            android:text="   更改人："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView38"
+            android:layout_alignBaseline="@+id/tv_visit_createby"
+            android:layout_alignBottom="@+id/tv_visit_createby"
+            android:layout_toRightOf="@+id/tv_visit_createby"
+            android:layout_toEndOf="@+id/tv_visit_createby"/>
+
+        <TextView
+            android:text="季昌明"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_changeby"
+            android:layout_alignBaseline="@+id/textView38"
+            android:layout_alignBottom="@+id/textView38"
+            android:layout_toRightOf="@+id/textView38"
+            android:layout_toEndOf="@+id/textView38"/>
+
+
+        <TextView
+            android:text="状态："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="36dp"/>
+
+        <TextView
+            android:text="接待人："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView33"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:text="侯亮平"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_deskclrek"
+            android:layout_alignBaseline="@+id/textView33"
+            android:layout_alignBottom="@+id/textView33"
+            android:layout_toRightOf="@+id/textView33"
+            android:layout_toEndOf="@+id/textView33"/>
+        <TextView
+            android:text="   电话："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView36"
+            android:layout_alignBaseline="@+id/tv_visit_deskclrek"
+            android:layout_alignBottom="@+id/tv_visit_deskclrek"
+            android:layout_toRightOf="@+id/tv_visit_deskclrek"
+            android:layout_toEndOf="@+id/tv_visit_deskclrek"/>
+
+        <TextView
+            android:text="13802784057"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_deskclrekphone"
+            android:layout_alignBaseline="@+id/textView36"
+            android:layout_alignBottom="@+id/textView36"
+            android:layout_toRightOf="@+id/textView36"
+            android:layout_toEndOf="@+id/textView36"/>
+
+
+        <TextView
+            android:text="部门："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="84dp"/>
+
+
+        <TextView
+            android:text="汉东省检察院"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_department"
+            android:layout_alignBaseline="@+id/textView34"
+            android:layout_alignBottom="@+id/textView34"
+            android:layout_toRightOf="@+id/textView34"
+            android:layout_toEndOf="@+id/textView34"/>
+
+        <TextView
+            android:text="   科室："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView35"
+            android:layout_alignBaseline="@+id/tv_visit_department"
+            android:layout_alignBottom="@+id/tv_visit_department"
+            android:layout_toRightOf="@+id/tv_visit_department"
+            android:layout_toEndOf="@+id/tv_visit_department"/>
+
+        <TextView
+            android:text="反贪局"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_crew"
+            android:layout_alignBaseline="@+id/textView35"
+            android:layout_alignBottom="@+id/textView35"
+            android:layout_toRightOf="@+id/textView35"
+            android:layout_toEndOf="@+id/textView35"/>
+
+        <TextView
+            android:text="来访事由："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView37"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="108dp"/>
+
+        <TextView
+            android:text="反腐倡廉"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_reason"
+            android:layout_alignBaseline="@+id/textView37"
+            android:layout_alignBottom="@+id/textView37"
+            android:layout_toRightOf="@+id/textView37"
+            android:layout_toEndOf="@+id/textView37"/>
+
+
+        <TextView
+            android:text="ACTIVITY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_status2"
+            android:layout_alignBaseline="@+id/textView32"
+            android:layout_alignBottom="@+id/textView32"
+            android:layout_toRightOf="@+id/textView32"
+            android:layout_toEndOf="@+id/textView32"/>
+
+        <TextView
+            android:text="2017-04-18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_visit_createtime"
+            android:layout_below="@+id/textView33"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

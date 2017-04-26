@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.myandroidswitchbtndemo.MainInterfaceActivity" >
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item
+        android:id="@+id/action_addUser"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="访客列表"/>
+
+    <item
+        android:id="@+id/action_addVisit"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="申请访客单"/>
+
+
+</menu>

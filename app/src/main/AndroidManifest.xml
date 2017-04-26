@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.myfirstapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/quantou"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+
+
+        <activity android:name=".activity.HelloWorldActivity"></activity> <!-- 用户listview -->
+        <activity android:name=".activity.UserInfoActivity"></activity> <!-- 用户详情 -->
+        <activity android:name=".activity.SearchActivity"></activity> <!-- 用户搜索列表 -->
+        <activity android:name=".activity.RegisterActivity"></activity> <!-- 注册 -->
+        <activity android:name=".activity.FragmentDynamicActivity"></activity><!--碎片页面 -->
+        <!-- 新系统 -->
+        <activity android:name=".activity_new.RegisterSqlActivity"></activity><!-- 新注册 -->
+        <activity android:name=".activity_new.UserListSqlActivity"></activity><!-- 新用户列表 -->
+        <activity android:name=".activity_new.UserInfoSqlActivity"></activity><!-- 新用户详情 -->
+        <activity android:name=".activity_new.LoginSqlActivity"></activity><!-- 新用户登录 -->
+        <activity android:name=".activity_new.VisitorAddActivity"></activity><!--新增访客单 -->
+        <activity android:name=".activity_new.VisitorListActivity"></activity><!--访客单列表 -->
+        <activity android:name=".activity_new.MainInterfaceActivity"></activity><!--登录后的页面 -->
+        <activity android:name=".activity_new.VisitorInfoActivity"></activity><!--访客单详情 -->
+        <activity android:name=".activity_new.UserUpdateActivity"></activity><!--用户修改 -->
+        <activity android:name=".activity_new.VisitorUpdateActivity"></activity><!--访客但修改修改 -->
+        <activity android:name=".activity_new.VisitorDetailedActivity"></activity><!--访客明细修改 -->
+        <activity android:name=".activity_new.UserVisitorListActivity"></activity><!--访客列表 -->
+
+        <!-- demo -->
+        <activity android:name=".activity.FragmentMainActivity"></activity>
+        <activity android:name=".activity.SearchActivity2"></activity>
+        <activity android:name=".activity.FragmentActivity2"></activity>
+        <activity android:name=".activity.FragmentActivity"></activity>
+        <activity android:name=".activity.SqlActivity"></activity>
+        <activity android:name=".activity.StudentMainActivity"></activity>
+        <activity android:name=".activity.StudentDetailActivity"></activity>
+        <activity android:name=".activity.SelectDateActivity"></activity><!--登录后的页面 -->
+        <activity android:name=".activity.TestActivity"></activity>
+        <activity android:name=".test.MainActivity2"></activity>
+        <activity android:name=".datedialog.MainActivity3"></activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:lines="1"
+          android:layout_height="40dp"
+          android:textSize="18sp"
+          android:gravity="center"
+          android:textColor="@android:color/holo_green_dark"/>
+
+<!--
+头部的布局可自定义
+1.等比宽度，我这里是使用了权重layout_weight，头部数据少的情况下可使用
+2.使用固定宽度，layout_width，这样可以避免在添加过多头部数据时显示不全的问题，
+ -->

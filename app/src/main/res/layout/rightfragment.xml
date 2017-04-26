@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:text="这是右边的Fragment！！！"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+</LinearLayout>

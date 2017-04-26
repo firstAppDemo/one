@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="申请人："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visit_createBy"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="状态："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visit_status"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="接待人员："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visit_deskclrek"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="接待人电话："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/et_visit_deskclrekPhone"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="来访事由："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visit_reason"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="备注："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visit_memo"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="部门科室："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visit_department"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.14"/>
+        <EditText
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visit_crew"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.13"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+        <Button
+            android:id="@+id/btn_chooses"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="来访时间："
+            android:background="@drawable/shape_corner_down"
+            android:layout_marginLeft="20dp"
+
+            />
+       <!-- <TextView
+            android:text=""
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>-->
+        <EditText
+            android:id="@+id/et_visit_visitTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:hint="请点击左侧按钮选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+<!--
+        <com.mycompany.myfirstapp.test.EditTextWithDate
+            android:id="@+id/et_visit_visitTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:hint="请点击右侧日历选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+
+            />-->
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_chooses2"
+            android:layout_height="wrap_content"
+            android:text="离开时间："
+            android:background="@drawable/shape_corner_down"
+            android:layout_width="110dp"
+            android:layout_marginLeft="20dp"
+           />
+
+        <!-- <TextView
+             android:text="离开时间："
+             android:layout_width="110dp"
+             android:layout_height="match_parent"
+             android:id="@+id/textView133"
+             android:textSize="18sp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="12dp"/>-->
+        <EditText
+            android:id="@+id/et_visit_leaveTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:hint="请点击坐侧按钮选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+      <!--  <com.mycompany.myfirstapp.test.EditTextWithDate
+            android:id="@+id/et_visit_leaveTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:hint="请点击右侧日历选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>-->
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="保存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visit_sub"
+            android:background="@drawable/shape_corner"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:text="返回"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visit_desc"
+            android:background="@drawable/shape_corner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30dp"/>
+
+        <Button
+            android:text="新增访客明细"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visit_mingxi"
+            android:background="@drawable/shape_corner"
+            android:layout_alignTop="@+id/btn_visit_desc"
+            android:layout_toRightOf="@+id/btn_visit_sub"
+            android:layout_toEndOf="@+id/btn_visit_sub"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

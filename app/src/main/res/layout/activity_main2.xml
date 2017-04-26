@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+
+                   <com.mycompany.myfirstapp.test.EditTextWithDate
+                       android:id="@+id/limitedDate"
+                       android:layout_width="200dp"
+                       android:layout_height="40dp"                     
+                       android:textSize="12sp"
+                       android:hint="请点击右侧日历选择"
+                       android:paddingLeft="8dp"
+                       android:textColor="#555555"
+                       android:layout_marginTop="10dp"
+                       android:layout_gravity="center_horizontal"
+                 
+                         >
+
+                   
+                   </com.mycompany.myfirstapp.test.EditTextWithDate>
+
+                   <com.mycompany.myfirstapp.test.EditTextWithAdd
+                       android:id="@+id/selectUserNames"
+                       android:layout_width="200dp"
+                       android:layout_height="40dp"                              
+                       android:layout_marginTop="20dp"
+                       android:textSize="12sp"
+                       android:hint="请点击右侧按钮进行选择"
+                       android:paddingLeft="8dp"
+                       android:textColor="#555555" 
+                       android:layout_gravity="center_horizontal"
+                    />
+
+</LinearLayout>

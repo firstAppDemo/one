@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:weightSum="1"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="姓名："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:layout_weight="0.50"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_info_name"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="性别："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:layout_weight="0.50"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_info_sex"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="爱好："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13"
+            android:layout_weight="0.50"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_info_hobby"
+            android:layout_weight="0.5"
+            android:textAlignment="viewStart"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>

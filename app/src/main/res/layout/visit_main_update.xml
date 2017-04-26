@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar_upp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="申请人："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <EditText
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visitupp_createBy"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="状态："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visitupp_status"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="接待人员："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visitupp_deskclrek"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="接待人电话："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/et_visitupp_deskclrekPhone"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="来访事由："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/et_visitupp_reason"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="备注："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visitupp_memo"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="部门科室："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visitupp_department"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.14"/>
+        <EditText
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:inputType=""
+            android:ems="10"
+            android:id="@+id/et_visitupp_crew"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.13"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="来访时间："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+
+        <com.mycompany.myfirstapp.test.EditTextWithDate
+            android:id="@+id/et_visitupp_visitTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:hint="请点击右侧日历选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="离开时间："
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView133"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"/>
+        <com.mycompany.myfirstapp.test.EditTextWithDate
+            android:id="@+id/et_visitupp_leaveTime"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:hint="请点击右侧日历选择"
+            android:paddingLeft="8dp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="提交"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visitupp_sub"
+            android:background="@drawable/shape_corner"
+            android:layout_margin="30dp"/>
+
+        <Button
+            android:text="返回"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visitupp_desc"
+            android:background="@drawable/shape_corner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

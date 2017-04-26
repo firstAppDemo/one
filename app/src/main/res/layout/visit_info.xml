@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="编号："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_id"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:text="来访事由："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_reason"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="申请人："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_createby"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="申请时间："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_createtime"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="修改人："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_changeby"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="修改时间："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_changetime"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="接待人："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_desk"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="电话号码："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_deskphone"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="状态："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_status"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="状态时间："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_statustime"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="部门："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_dept"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="科室："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv2121"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_crew"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:weightSum="1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="来访时间："
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_visittime"
+            android:gravity="center"
+            android:layout_weight="0.06"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="离开时间："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_leavetime"
+            android:gravity="center"
+            android:layout_weight="0.80"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="41dp">
+
+        <TextView
+            android:text="备注："
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView20"
+            android:gravity="center"
+            android:layout_weight="0.31"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_visitinfo_memo"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="删除"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visitinfo_del"
+            android:background="@drawable/shape_corner"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:text="关闭"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visitinfo_closs"
+            android:background="@drawable/shape_corner"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:text="修改"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_visitinfo_upp"
+            android:background="@drawable/shape_corner"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

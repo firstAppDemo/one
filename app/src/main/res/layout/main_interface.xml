@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="#eee8cc"   >
+
+
+    <TextView
+        android:text="用户列表"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tv_main_userlist"
+        android:textSize="18sp"
+        android:onClick="jumpUserList"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/shape_round_textview"
+        android:layout_width="150dp"/>
+
+    <TextView
+        android:text="访客单申请列表"
+        android:id="@+id/tv_main_visitorlist"
+        android:textSize="18sp"
+        android:lineSpacingExtra="18sp"
+        android:onClick="jumpVisitList"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/tv_main_userlist"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/shape_round_textview"
+        android:layout_height="150dp"
+        android:layout_width="150dp"/>
+
+</RelativeLayout>

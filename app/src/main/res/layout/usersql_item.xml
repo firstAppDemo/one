@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/head_2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="25dp"
+            android:id="@+id/img_item_img"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/img_item_img"
+            android:layout_toRightOf="@+id/img_item_img"
+            android:layout_toEndOf="@+id/img_item_img"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_item_name"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/tv_item_name"
+            android:layout_alignStart="@+id/tv_item_name"
+            android:id="@+id/tv_item_hobby"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_item_img"
+            android:layout_alignLeft="@+id/tv_item_hobby"
+            android:layout_alignStart="@+id/tv_item_hobby"
+            android:id="@+id/tv_item_remark"/>
+
+        <TextView
+            android:text="人妖"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_item_name"
+            android:layout_toRightOf="@+id/tv_item_name"
+            android:layout_toEndOf="@+id/tv_item_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tv_item_sex"/>
+
+        <TextView
+            android:text="19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_item_sex"
+            android:layout_toRightOf="@+id/tv_item_sex"
+            android:layout_toEndOf="@+id/tv_item_sex"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:id="@+id/tv_item_age"/>
+
+        <TextView
+            android:text="岁"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_item_age"
+            android:layout_toRightOf="@+id/tv_item_age"
+            android:layout_toEndOf="@+id/tv_item_age"
+            android:id="@+id/textView18"/>
+
+      <!--  <Button
+            android:text="删除"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/btn_item_del"
+            android:onClick="onClick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/shape_corner"/>-->
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_item_remark"
+            android:layout_toRightOf="@+id/tv_item_remark"
+            android:layout_toEndOf="@+id/tv_item_remark"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:id="@+id/tv_item_id"
+            android:layout_alignBottom="@+id/tv_item_remark"/>
+    </RelativeLayout>
+</LinearLayout>

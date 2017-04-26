@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="85dp"
+        android:background="#f4f4f4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号"
+            android:id="@+id/tv_login__lable_user"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="13dp"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/et_login_username"
+            android:inputType="textVisiblePassword"
+            android:layout_centerHorizontal="true"
+            android:hint="请输入账号/手机号码"
+            android:textColorHint="#000000"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:background="@null" />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#f4f4f4"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:id="@+id/tv_login__lable_pwd"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="13dp"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:layout_width="242dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:id="@+id/et_login_password"
+            android:layout_centerHorizontal="true"
+            android:hint="请输入密码"
+            android:textColorHint="#000000"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:background="@null" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="23dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="还剩登录次数"
+            android:id="@+id/tv_login_label_reg"
+            android:layout_gravity="center"
+            android:textSize="11sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="17dp"
+            android:textColor="#64b7f8"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="3次"
+            android:id="@+id/tv_attempts"
+            android:layout_gravity="center"
+            android:textSize="11sp"
+            android:textAlignment="center"
+            android:textColor="#64b7f8"
+            android:clickable="true"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp" />
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="登录"
+        android:id="@+id/tv_login_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:clickable="true"
+        android:background="@drawable/color"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+</LinearLayout>
